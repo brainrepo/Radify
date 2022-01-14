@@ -1,0 +1,30 @@
+{
+  "name": "fastify-starter",
+  "version": "1.0.0",
+  "description": "Get started using Fastify with this basic template.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "dev": "nodemon src/start.js && react-app-rewired start",
+    "test": "tap --no-coverage  --no-esm"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.13.8",
+    "fastify": "^3.0.0-rc.1",
+    "fastify-plugin": "3.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "tap": "^14.10.2",
+    "nodemon": "^2.0.1",
+    "react-app-rewired": "2.1.11",
+    "react-scripts": "4.0.0",
+    "typescript": "4.1.3"
+  },
+  "keywords": ["fastify", "node.js", "backend", "server", "http"],
+  "eslintConfig": {
+    "sourceType": "script"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
